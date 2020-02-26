@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="097af036-f212-456a-ac86-cf67f278467c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/mjeks/athenkosi/DisablingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mjeks/athenkosi/Timeout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mjeks/athenkosi/TimeoutTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/mjeks/athenkosi/FailTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mjeks/athenkosi/FailTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mjeks/athenkosi/DisablingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mjeks/athenkosi/DisablingTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit3 Test Class" />
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -70,7 +71,7 @@
       <recent name="junit.framework.TestCase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DisablingTest">
+  <component name="RunManager" selected="JUnit.TimeoutTest">
     <configuration name="ObjectEqualityTest.testObjectEquality" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <option name="PACKAGE_NAME" value="mjeks.athenkosi" />
@@ -109,8 +110,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTesting" />
+      <option name="PACKAGE_NAME" value="mjeks.athenkosi" />
+      <option name="MAIN_CLASS_NAME" value="mjeks.athenkosi.TimeoutTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TimeoutTest" />
         <item itemvalue="JUnit.DisablingTest" />
         <item itemvalue="JUnit.FailTest" />
         <item itemvalue="JUnit.ObjectIdentityTest" />
@@ -141,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582664960274</updated>
       <workItem from="1582664976915" duration="2479000" />
-      <workItem from="1582687867108" duration="5632000" />
+      <workItem from="1582687867108" duration="8648000" />
     </task>
     <servers />
   </component>
@@ -165,29 +176,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="412" y="146" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582690973333" />
-    <state width="1306" height="169" key="GridCell.Tab.0.bottom" timestamp="1582693671556">
+    <state width="1306" height="169" key="GridCell.Tab.0.bottom" timestamp="1582710200537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582693671556" />
-    <state width="1306" height="169" key="GridCell.Tab.0.center" timestamp="1582693671556">
+    <state width="1306" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582710200521" />
+    <state width="1306" height="169" key="GridCell.Tab.0.center" timestamp="1582710200521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582693671556" />
-    <state width="1306" height="169" key="GridCell.Tab.0.left" timestamp="1582693671556">
+    <state width="1306" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582710200506" />
+    <state width="1306" height="169" key="GridCell.Tab.0.left" timestamp="1582710200490">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582693671556" />
-    <state width="1306" height="169" key="GridCell.Tab.0.right" timestamp="1582693671556">
+    <state width="1306" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582710200490" />
+    <state width="1306" height="169" key="GridCell.Tab.0.right" timestamp="1582710200521">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582693671556" />
+    <state width="1306" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582710200521" />
     <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1582687865561">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582687865561" />
-    <state x="454" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582691702398">
+    <state x="454" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1582694984574">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="454" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1582691702398" />
+    <state x="454" y="65" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1582694984574" />
   </component>
 </project>
